@@ -1,0 +1,37 @@
+/* global */
+:root{
+    --chocolate:  #552619;
+    --d_green: #31473A;
+    --beauty: #8AB6F9;
+    --font: 'Poppins', sans-serif;
+    --10: 18px;
+    --30: 30px;
+    --20: 25px;
+
+    --400: 400;
+    --600: 600;
+    --700: 700;
+    --pad: 10px;
+}
+/* global */
+.container {
+    background-color: var(--beauty);
+}
+p{
+    padding: var(--pad);
+}
+.text1 {
+    color: var(--chocolate);
+    font-family: var(--font);
+    font-size: var(--10);
+}
+.text2{
+    color: var(--d_green);
+    font-size: var(--20);
+    font-weight: var(--600);
+}
+.text3 {
+    color: var(--chocolate);
+    font-size: var(--30);
+    font-weight: var(--700);
+}
